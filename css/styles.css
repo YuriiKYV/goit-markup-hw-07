@@ -1,22 +1,11 @@
+/* =====COMPONENTS=====*/
 
 
 
-.menu-list-link.current {
-  color: var(--primary-accent-color);
-}
-.menu-list-link.current::after {
-  position: absolute;
-  left: 0;
-  bottom: 0;
-  content: "";
-  width: 100%;
-  height: 4px;
-  background-color: var(--primary-accent-color);
-  border-radius: 2px;
-  
-}
 
 /* =====START HEADER=====*/
+
+
 .heading {
   border-bottom: 1px solid #ececec;
 }
@@ -46,13 +35,6 @@
   margin-right: 93px;
   padding-top: 24px;
   padding-bottom: 24px;
-
-  font-family: var(--secondary-font-family);
-  font-weight: 700;
-  font-size: 26px;
-  line-height: 1.19;
-  letter-spacing: 0.03em;
-  color: var(--primary-accent-color);
 }
 .title-logo-color {
   color: var(--primary-text-color);
@@ -207,12 +189,6 @@
 }
 .specificity-title {
   margin-bottom: 50px;
-
-  font-weight: 700;
-  font-size: 36px;
-  line-height: 1.17;
-  text-align: center;
-  letter-spacing: 0.03em;
 }
 
 .specificity-list {
@@ -251,12 +227,6 @@
 }
 .team-title {
   margin-bottom: 50px;
-
-  font-weight: 700;
-  font-size: 36px;
-  line-height: 1.17;
-  text-align: center;
-  letter-spacing: 0.03em;
 }
 .team-card {
   background: var(--secondary-accent-color);
@@ -318,12 +288,6 @@
 /* =====START CLIENTS=====*/
 .clients-title {
   margin-bottom: 50px;
-
-  font-weight: 700;
-  font-size: 36px;
-  line-height: 42px;
-  text-align: center;
-  letter-spacing: 0.03em;
 }
 .clients-list {
   display: flex;
@@ -362,13 +326,6 @@
 .bottom-logo {
   display: inline-block;
   margin-bottom: 20px;
-
-  font-family: var(--secondary-font-family);
-  font-weight: 700;
-  font-size: 26px;
-  line-height: 1.19;
-  letter-spacing: 0.03em;
-  color: var(--primary-accent-color);
 }
 .bottom-logo-color {
   color: var(--secondary-accent-color);
