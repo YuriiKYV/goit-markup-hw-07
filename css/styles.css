@@ -123,25 +123,7 @@
 
 .hero-button {
   justify-content: center;
-  min-width: 200px;
   padding: 10px 32px;
-
-  font-family: inherit;
-  font-weight: 700;
-  font-size: 16px;
-  line-height: 1.87;
-  letter-spacing: 0.06em;
-  cursor: pointer;
-  color: var(--secondary-accent-color);
-  background: var(--primary-accent-color);
-  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
-  border-radius: 4px;
-  border: none;
-  transition: background 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
-.hero-button:hover,
-.hero-button:focus {
-  background: #188ce8;
 }
 /* =====END HERO=====*/
 
@@ -426,27 +408,8 @@ color: var(--secondary-accent-color);
   display: flex;
   align-items: center;
   justify-content: space-between;
-  min-width: 200px;
   padding: 10px 28px 10px 29px;
-  
-  font-family: inherit;
-  font-weight: 700;
-  font-size: 16px;
-  line-height: 1.87;
-  letter-spacing: 0.06em;
-  cursor: pointer;
-  color: var(--secondary-accent-color);
-  background: var(--primary-accent-color);
-  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
-  border-radius: 4px;
-  border: none;
-  transition: background 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-.subscription-form-submit:hover,
-.subscription-form-submit:focus {
-  background: #188ce8;
-}
-
 
 .subscription-form-input {
   width: 358px;
@@ -770,28 +733,10 @@ color: var(--secondary-accent-color);
 }
 
 .contact-form-submit {
-  min-width: 200px;
   padding: 10px 56px;
   margin: 0 auto;
-  
-  font-family: inherit;
-  font-weight: 700;
-  font-size: 16px;
-  line-height: 1.87;
-  letter-spacing: 0.06em;
-  cursor: pointer;
-  color: var(--secondary-accent-color);
-  background: var(--primary-accent-color);
-  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
-  border-radius: 4px;
-  border: none;
-  transition: background 250ms cubic-bezier(0.4, 0, 0.2, 1);
   }
-  
-  .contact-form-submit:hover,
-  .contact-form-submit:focus {
-    background: #188ce8;
-}
+
 .contact-form-policy {
   color: var(--primary-accent-color);
 }
