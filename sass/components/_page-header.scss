@@ -1,15 +1,14 @@
 .menu-list-link.current {
     color: var(--primary-accent-color);
-}
-
-.menu-list-link.current::after {
-    position: absolute;
-    left: 0;
-    bottom: 0;
-    content: "";
-    width: 100%;
-    height: 4px;
-    background-color: var(--primary-accent-color);
-    border-radius: 2px;
-
+    
+    &::after {
+        position: absolute;
+        left: 0;
+        bottom: 0;
+        content: "";
+        width: 100%;
+        height: 4px;
+        background-color: var(--primary-accent-color);
+        border-radius: 2px;
+    }
 }
