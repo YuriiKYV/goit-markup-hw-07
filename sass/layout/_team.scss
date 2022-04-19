@@ -4,6 +4,10 @@
 
 .team-title {
     margin-bottom: 50px;
+
+    @include font-title (700, 36px, 1.17);
+    text-align: center;
+    letter-spacing: 0.03em;
 }
 
 .team-card {
@@ -33,9 +37,7 @@
 .team-list-worker {
     margin-bottom: 10px;
 
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 1.19;
+    @include font-title (500, 16px, 1.19);
     letter-spacing: 0.03em;
 }
 

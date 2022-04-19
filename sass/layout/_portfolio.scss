@@ -110,9 +110,8 @@
 
 .portfolio-list-title {
     color: var(--primary-text-color);
-    font-weight: 700;
-    font-size: 18px;
-    line-height: 2;
+    
+    @include font-title (700, 18px, 2);
     letter-spacing: 0.06em;
 }
 

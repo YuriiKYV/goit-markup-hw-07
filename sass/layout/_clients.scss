@@ -1,5 +1,9 @@
 .clients-title {
     margin-bottom: 50px;
+
+    @include font-title (700, 36px, 1.17);
+    text-align: center;
+    letter-spacing: 0.03em;
 }
 
 .clients-list {
